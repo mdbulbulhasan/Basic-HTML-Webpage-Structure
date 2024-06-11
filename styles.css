@@ -24,10 +24,12 @@ header {
 header h1 {
     margin-bottom: 0.5em;
 }
-
 nav ul {
-    display: inline;
-    margin: 0 0.5em;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 a:hover {
@@ -70,12 +72,37 @@ main .p-bottom {
     flex-direction: column;
 }
 
+.l-1 {
+    grid-area: a;
+  }
+  .l-2 {
+    grid-area: b;
+  }
+  .l-3 {
+    grid-area: c;
+  }
+  .l-4 {
+    grid-area: d;
+  }
+  .l-5 {
+    grid-area: e;
+  }
+  .l-6 {
+    grid-area: f;
+  }
 #services .s-bottom {
     display: grid;
-    grid-template-areas: 'Area Area Area';
-    grid-gap: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a  b  c"
+      "a  b  c"
+      "d  e  f"
+      "d  e  f";
+    margin: 20px;
+    align-content: center;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 section {
     margin-bottom: 2em;
