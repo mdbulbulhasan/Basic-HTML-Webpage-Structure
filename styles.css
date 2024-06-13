@@ -104,6 +104,42 @@ main .p-bottom {
     padding-right: 70px;
     padding-left: 70px;
 }
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact .c-bottom form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+form #name {
+    padding: 5px;
+}
+form #email{
+    padding: 5px;
+}
+form #button {
+    text-align: left;
+    width: fit-content;
+    border: none;
+}
+form #button:hover {
+    color: rgb(250, 4, 4);
+}
+form #message {
+    height: 120px;
+    width: 300px;
+}
+form #message::placeholder{
+    font-weight: 500;
+    padding: 5px;
+}
 section {
     margin-bottom: 2em;
 }
