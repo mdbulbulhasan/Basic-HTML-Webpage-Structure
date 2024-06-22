@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Header Section Start */
 header {
     text-align: center;
     font-size: 26px;
@@ -15,15 +16,13 @@ header {
 
 @media  only screen and (max-width: 768px) {
     header {
-        text-align: center;
-        font-size: 26px;
-        background-color: black;
-        color: #fff;
-        padding: 10px;
+        display: none;
 
     }
 }
+/* Header Section End */
 
+/* Nav Bar Section Start */
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -32,13 +31,18 @@ nav {
     background-color:saddlebrown;
     padding: 5px 300px 5px;
     gap: 20px;
-    width: 100%;
+    
 }
 
 nav a{
     text-decoration: none;
     color: #fff;
 }
+
+nav a:hover {
+    color: rgb(57, 188, 240);
+}
+
 
 @media  only screen and (max-width: 768px) {
     nav {
@@ -48,11 +52,10 @@ nav a{
     
     }
 }
+/* Nav Bar Section End */
 
-nav a:hover {
-    color: rgb(57, 188, 240);
-}
 
+/* About Section Start */
 #about {
     display: flex;
     flex-direction: column;
@@ -76,6 +79,7 @@ nav a:hover {
     font-size: 16px;
     font-style: italic;
     line-height: 3;
+    padding: 10px;
 }
 
 @media  only screen and (max-width: 768px) {
@@ -83,7 +87,9 @@ nav a:hover {
         display: none;     
     }
 }
+/* About Section End */
 
+/* Service Section Start*/
 #services {
     display: flex;
     justify-content: center;
@@ -124,3 +130,4 @@ nav a:hover {
         flex-direction: column;     
     }
 }
+/* Service Section End*/
