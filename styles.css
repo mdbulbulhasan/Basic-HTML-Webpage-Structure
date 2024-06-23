@@ -176,3 +176,14 @@ form #button:active {
     border-radius: 5px;
 }
 /* Contact Section End */
+
+/* Footer Section Start */
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 800;
+    font-style: italic;
+    background-color: brown;
+    padding: 10px;
+}
+/* Footer Section End */
