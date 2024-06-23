@@ -49,6 +49,8 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    align-items: center;
+    justify-content: center;
     
     }
 }
@@ -131,3 +133,46 @@ nav a:hover {
     }
 }
 /* Service Section End*/
+
+/* Contact Section Start */
+
+#contact {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 15px 20px;
+}
+#contact .c-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    gap: 5px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+        width: 200px;
+        padding: 5px;
+    }
+    textarea{
+        height: 200px;
+        width: 400px;
+        border-radius: 5px;
+        padding: 5px;
+    }  
+}
+
+form #button:active {
+    box-shadow: 2px 2px 5px #fc894d;
+    border-radius: 5px;
+}
+/* Contact Section End */
