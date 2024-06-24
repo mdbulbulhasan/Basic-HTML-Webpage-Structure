@@ -25,7 +25,7 @@ header {
 /* Nav Bar Section Start */
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     list-style: none;
     background-color:saddlebrown;
@@ -51,7 +51,6 @@ nav a:hover {
     gap: 5px;
     align-items: center;
     justify-content: center;
-    
     }
 }
 /* Nav Bar Section End */
