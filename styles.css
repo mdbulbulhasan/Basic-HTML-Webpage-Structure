@@ -177,6 +177,46 @@ form #button:active {
 }
 /* Contact Section End */
 
+/* Project Section Start */
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 40px 10px;
+    gap: 10px;
+    background-color: blanchedalmond;;
+}
+.p-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p-bottom {
+    
+    display: grid;
+    grid-template-areas: 'area area area';
+    gap: 20px;
+    padding: 20px 50px 20px;
+}
+
+@media  only screen and (max-width: 768px) {
+    .p-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            width: 768px;
+            height: 450px;
+            padding: 30px 50px 30px;
+        }        
+    }
+}
+/* Project Section End */
+
 /* Footer Section Start */
 footer {
     text-align: center;
